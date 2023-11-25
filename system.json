@@ -1,11 +1,21 @@
 {
+  "id": "fabulaultima",
   "name": "fabulaultima",
   "title": "Fabula Ultima (Unofficial)",
   "description": "The Fabula Ultima system for FoundryVTT!",
   "version": "0.1.0",
-  "minimumCoreVersion": "0.8.5",
-  "compatibleCoreVersion": "0.8.6",
-  "author": "KzMz",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "11",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11.315",
+    "maximum": "11"
+  },
+  "author": [
+    {
+      "name": "KzMz"
+    }
+  ],
   "esmodules": ["module/fabulaultima.mjs"],
   "styles": ["css/fabulaultima.css"],
   "scripts": [],
@@ -22,13 +32,13 @@
       "path": "lang/it.json"
     }
   ],
-  "gridDistance": 1,
+  "gridDistance": 5,
   "gridUnits": "m",
   "socket": true,
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "mana",
   "url": "This is auto replaced",
-  "manifest": "This is auto replaced",
+  "manifest": "./system.json",
   "download": "This is auto replaced",
   "license": "LICENSE.txt"
 }
