@@ -1,6 +1,6 @@
 {
-  "id": "fabulaultima",
-  "name": "fabulaultima",
+  "id": "fabula-ultima",
+  "name": "fabula-ultima",
   "title": "Fabula Ultima (Unofficial)",
   "description": "The Fabula Ultima system for FoundryVTT!",
   "version": "0.1.0",
@@ -16,8 +16,8 @@
       "name": "KzMz"
     }
   ],
-  "esmodules": ["module/fabulaultima.mjs"],
-  "styles": ["css/fabulaultima.css"],
+  "esmodules": ["module/fabulaultima.js"],
+  "styles": ["styles/fabulaultima.css"],
   "scripts": [],
   "packs": [],
   "languages": [
@@ -37,8 +37,9 @@
   "socket": true,
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "mana",
-  "url": "This is auto replaced",
-  "manifest": "./system.json",
-  "download": "This is auto replaced",
-  "license": "LICENSE.txt"
+  "url": "https://github.com/ghorbey/fabula-ultima",
+  "manifest": "https://github.com/ghorbey/fabula-ultima/releases/latest/download/system.json",
+  "download": "https://codeload.github.com/ghorbey/fabula-ultima/zip/refs/tags/alpha",
+  "license": "https://github.com/ghorbey/fabula-ultima/blob/main/LICENSE.txt",
+  "changelog": "https://github.com/ghorbey/fabula-ultima/blob/main/README.md"
 }
