@@ -10,7 +10,7 @@ export class FabulaUltimaActorSheet extends ActorSheet {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       classes: ["fabulaultima", "sheet", "actor"],
-      template: "systems/fabulaultima/templates/actor/actor-sheet.html",
+      template: "systems/fabula-ultima/templates/actor/actor-sheet.html",
       width: 600,
       height: 600,
       tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "features" }]
@@ -19,7 +19,7 @@ export class FabulaUltimaActorSheet extends ActorSheet {
 
   /** @override */
   get template() {
-    return `systems/fabulaultima/templates/actor/actor-${this.actor.data.type}-sheet.html`;
+    return `systems/fabula-ultima/templates/actor/actor-${this.actor.data.type}-sheet.html`;
   }
 
   /* -------------------------------------------- */

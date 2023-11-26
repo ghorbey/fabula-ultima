@@ -127,7 +127,7 @@ export class FabulaUltimaActor extends Actor {
     templateData["isFumble"] = isFumble;
     templateData["label"] = game.i18n.localize(label);
 
-    const template = "systems/fabulaultima/templates/chat/base-card.html";
+    const template = "systems/fabula-ultima/templates/chat/base-card.html";
     const html = await renderTemplate(template, templateData);
 
     const chatData = {
@@ -211,7 +211,7 @@ export class FabulaUltimaActor extends Actor {
       chatData["roll"] = roll;
     }
 
-    const template = "systems/fabulaultima/templates/chat/feature-card.html";
+    const template = "systems/fabula-ultima/templates/chat/feature-card.html";
     const html = await renderTemplate(template, templateData);
     chatData["content"] = html;
 
@@ -293,7 +293,7 @@ export class FabulaUltimaActor extends Actor {
     templateData["isFumble"] = isFumble;
     templateData["hasFabulaPoint"] = this.system.fabulaPoints > 0;
 
-    const template = "systems/fabulaultima/templates/chat/weapon-card.html";
+    const template = "systems/fabula-ultima/templates/chat/weapon-card.html";
     const html = await renderTemplate(template, templateData);
 
     let token = this.token;

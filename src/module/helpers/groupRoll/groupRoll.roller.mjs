@@ -22,7 +22,7 @@ export class FabulaUltimaGroupRollRoller extends Application {
     static get defaultOptions() {
         const options = super.defaultOptions;
         options.title = game.i18n.localize("FABULAUTIMA.Title");
-        options.template = "systems/fabulaultima/templates/groupRoll/groupRoll-roller.html";
+        options.template = "systems/fabula-ultima/templates/groupRoll/groupRoll-roller.html";
         options.popOut = true;
         options.width = 400;
         options.height = "auto";

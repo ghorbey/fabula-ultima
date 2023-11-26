@@ -53,3 +53,15 @@
     padding: 0 8px;
   }
 }
+
+.health-progress {
+  accent-color: $c-red;
+}
+
+.mind-progress {
+  accent-color: $c-blue;
+}
+
+.inventory-progress {
+  accent-color: $c-green;
+}

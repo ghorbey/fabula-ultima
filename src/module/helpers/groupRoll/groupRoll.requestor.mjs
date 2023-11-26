@@ -14,7 +14,7 @@ export class FabulaUltimaGroupRollRequestor extends FormApplication {
         const options = super.defaultOptions;
         options.title = game.i18n.localize("FABULAULTIMA.GroupRoll");
         options.id = "fabulaultima-grouproll";
-        options.template = "systems/fabulaultima/templates/groupRoll/groupRoll-request.html";
+        options.template = "systems/fabula-ultima/templates/groupRoll/groupRoll-request.html";
         options.closeOnSubmit = false;
         options.popOut = true;
         options.width = 600;

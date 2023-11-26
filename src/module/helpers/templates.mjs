@@ -7,11 +7,11 @@
   return loadTemplates([
 
       // Actor partials.
-      "systems/fabulaultima/templates/actor/parts/actor-features.html",
-      "systems/fabulaultima/templates/actor/parts/actor-items.html",
-      "systems/fabulaultima/templates/actor/parts/actor-spells.html",
-      "systems/fabulaultima/templates/actor/parts/actor-effects.html",
-      "systems/fabulaultima/templates/actor/parts/actor-bonds.html",
-      "systems/fabulaultima/templates/actor/parts/actor-limits.html"
+      "systems/fabula-ultima/templates/actor/parts/actor-features.html",
+      "systems/fabula-ultima/templates/actor/parts/actor-items.html",
+      "systems/fabula-ultima/templates/actor/parts/actor-spells.html",
+      "systems/fabula-ultima/templates/actor/parts/actor-effects.html",
+      "systems/fabula-ultima/templates/actor/parts/actor-bonds.html",
+      "systems/fabula-ultima/templates/actor/parts/actor-limits.html"
   ]);
 };

@@ -16,7 +16,7 @@ export class FabulaUltimaItemSheet extends ItemSheet {
 
   /** @override */
   get template() {
-    const path = "systems/fabulaultima/templates/item";
+    const path = "systems/fabula-ultima/templates/item";
     // Return a single sheet for all item types.
     // return `${path}/item-sheet.html`;
 
